@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  api_moviles_api:
+    build: api_moviles
+    ports:
+      - "8089:8089"
